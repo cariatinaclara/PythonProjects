@@ -12,7 +12,6 @@ def binary_search(list, element):
    # If it is not equal to the middle element the while loop will split the list to make the pool of choice is halved
    # If the element is less than the middle of the list then the list will start from Start and end at Middle - 1
    # If the element is greater than the middle then the list will start with Middle + 1 and end with End
-    
     while(Start<=End):
         print("Step",Steps, ":", str(list[Start:End + 1]))
 
